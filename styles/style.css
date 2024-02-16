@@ -78,14 +78,14 @@ html {
   --background-color: #f8f4f2;
   --background-color-about: #f8f4f2;
   --background-color-footer:#7dbcc6; ;    
-  --alt-background-color: #000000;
+  --alt-background-color: ##f8f4f2;
   --background-color-holding-page: rgba(82, 0, 255,0.6);
   --h1-color: #1a1b25;
-  --h2-color: #5200ff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h2-color: #1a1b25;
+  --h3-color: #1a1b25;
+  --h4-color: #1a1b25;
+  --h5-color: #1a1b25;
+  --h6-color: #1a1b25;
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
   --accent-color: #5200ff;
@@ -93,7 +93,7 @@ html {
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
   --hyperlink-color: #5200ff;
-  --hyperlink-alternate-color: orangered;
+  --hyperlink-alternate-color: rgb(255, 194, 73);
   --hover-color: #111;
   --visited-color: #5200ff;
   --project-title-color: #5200ff;
@@ -152,7 +152,7 @@ h1 {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 500;;
   margin-bottom: 1rem;
-  color: var(--h1-color);
+  color: #1a1b25;
 }
 
 h2 {
