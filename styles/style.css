@@ -72,12 +72,12 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: 'Eczar', serif;
-  --project-title-typeface: 'Eczar', serif;
+  --body-typeface: "M PLUS Rounded 1c"
+  --heading-typeface: "M PLUS Rounded 1c"
+  --project-title-typeface: "M PLUS Rounded 1c"
   --background-color: #f8f4f2;
   --background-color-about: #f8f4f2;
-  --background-color-footer:#7dbcc6; ;    
+  --background-color-footer:##f8f4f2 ;    
   --alt-background-color: ##f8f4f2;
   --background-color-holding-page: rgba(82, 0, 255,0.6);
   --h1-color: #1a1b25;
@@ -202,13 +202,13 @@ em {
 }
 
 .hero-headline {
-  color: var(--overlay-color);
+  color: #1a1b25;
 }
 
 .project-title {
   font-size: 3.725rem;
   font-family: var(--project-title-typeface);
-  color: var(--project-title-color);
+  color: #1a1b25;
   margin-bottom: 1rem;
 }
 
