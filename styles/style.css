@@ -10,6 +10,8 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
+
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
@@ -150,7 +152,8 @@ svg {
 
 h1 {
   font-size: 2rem;
-  font-family: var(--heading-typeface);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 500;;
   margin-bottom: 1rem;
   color: var(--h1-color);
 }
