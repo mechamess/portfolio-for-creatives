@@ -72,9 +72,9 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "M PLUS Rounded 1c"
-  --heading-typeface: "M PLUS Rounded 1c"
-  --project-title-typeface: "M PLUS Rounded 1c"
+  --body-typeface: "M PLUS Rounded 1c", sans-serif;
+  --heading-typeface: "M PLUS Rounded 1c", sans-serif;
+  --project-title-typeface: "M PLUS Rounded 1c", sans-serif;
   --background-color: #f8f4f2;
   --background-color-about: #f8f4f2;
   --background-color-footer:##f8f4f2 ;    
@@ -97,8 +97,8 @@ html {
   --hover-color: #111;
   --visited-color: #5200ff;
   --project-title-color: #5200ff;
-  --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --project-sidebar-background-color: transparent;
+  --project-sidebar-text-color: rgb(27, 27, 28);
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #5200ff;
@@ -586,10 +586,10 @@ a:active {
   width: 100%;
   padding: 1rem;
   /* Delete the following if you do not want a gradient background on the project page */
-  background-image: linear-gradient(-225deg,
+  /* background-image: linear-gradient(-225deg,
       var(--linear-gradient-color-1) 0%,
       var(--linear-gradient-color-2) 50%,
-      var(--linear-gradient-color-3) 100%);
+      var(--linear-gradient-color-3) 100%); */
 }
 
 
@@ -859,7 +859,7 @@ a.sub-navigation-link:hover {
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 1rem;
   }
 
