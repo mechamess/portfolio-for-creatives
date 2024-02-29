@@ -830,6 +830,10 @@ a.sub-navigation-link:hover {
 
 @media (min-width: 992px) {
 
+  .parallax {
+    max-height: 950px;
+  }
+
   .holding-page-title {
     font-size: 2rem;
   }
