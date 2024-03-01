@@ -50,7 +50,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/cursor-star.png"), auto !important;
+  cursor: url("../assets/cursor/starcursor.png"), auto !important;
 }
 
 *,
@@ -79,8 +79,8 @@ html {
   --background-color-about: #f8f4f2;
   --background-color-footer:##f8f4f2 ;    
   --alt-background-color: ##f8f4f2;
-  --background-color-holding-page: rgba(82, 0, 255,0.6);
-  --h1-color: #1a1b25;
+  --background-color-holding-page: rgba(146, 233, 247, 0.6);
+  --h1-color: #363365;
   --h2-color: #1a1b25;
   --h3-color: #1a1b25;
   --h4-color: #1a1b25;
@@ -88,7 +88,7 @@ html {
   --h6-color: #1a1b25;
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #5200ff;
+  --accent-color: #003bb9;
   --overlay-color: #5200ff;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
@@ -99,7 +99,7 @@ html {
   --project-title-color: #5200ff;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: rgb(27, 27, 28);
-  --heart-color: darkred;
+  --heart-color: rgb(104, 223, 227);
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #5200ff;
   --linear-gradient-color-1: #ff057c;
@@ -202,7 +202,7 @@ em {
 }
 
 .hero-headline {
-  color: #1a1b25;
+  color: #282d74;
 }
 
 .project-title {
