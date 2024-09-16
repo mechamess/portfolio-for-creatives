@@ -12,6 +12,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
 
 
@@ -73,34 +74,34 @@ html {
 
 :root {
   --body-typeface: "M PLUS Rounded 1c", sans-serif;
-  --heading-typeface: "M PLUS Rounded 1c", sans-serif;
+  --heading-typeface: "Madimi One", sans-serif;
   --project-title-typeface: "M PLUS Rounded 1c", sans-serif;
-  --background-color: #f8f4f2;
-  --background-color-about: #f8f4f2;
-  --background-color-footer:#f8f4f2;    
-  --alt-background-color: ##f8f4f2;
+  --background-color: #f5f2ed;
+  --background-color-about: #f5f2ed;
+  --background-color-footer:#f5f2ed;    
+  --alt-background-color: #f5f2ed;
   --background-color-holding-page: rgba(146, 233, 247, 0.6);
-  --h1-color: #363365;
-  --h2-color: #1a1b25;
+  --h1-color: #7EBCC6;
+  --h2-color: #7EBCC6;
   --h3-color: #1a1b25;
   --h4-color: #1a1b25;
   --h5-color: #1a1b25;
   --h6-color: #1a1b25;
   --primary-text-color: #222;
-  --holding-page-title-color: #ebedf0;
-  --accent-color: #003bb9;
+  --holding-page-title-color: #f4ede9;
+  --accent-color: #f0d83b;
   --overlay-color: #5200ff;
-  --overlay-title-color: #ffffff;
-  --overlay-description-color: #ffffff;
+  --overlay-title-color: #f4ede9;
+  --overlay-description-color: #f4ede9;
   --hyperlink-color: #5200ff;
-  --hyperlink-alternate-color: rgb(255, 194, 73);
+  --hyperlink-alternate-color: rgb(100, 73, 255);
   --hover-color: #111;
   --visited-color: #5200ff;
   --project-title-color: #5200ff;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: rgb(27, 27, 28);
   --heart-color: rgb(104, 223, 227);
-  --holding-page-footer-color: #f8f8ff;
+  --holding-page-footer-color: #f4ede9;
   --text-selection-background-color: #5200ff;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
@@ -149,10 +150,10 @@ svg {
 
 h1 {
   font-size: 2rem;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Madimi One", sans-serif;
   font-weight: 500;;
   margin-bottom: 1rem;
-  color: #1a1b25;
+  color: #7EBCC6;
 }
 
 h2 {
@@ -202,7 +203,7 @@ em {
 }
 
 .hero-headline {
-  color: #282d74;
+  color: #5ea0aa;
 }
 
 .project-title {
@@ -337,6 +338,7 @@ a:active {
 }
 
 .branding-navigation {
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
