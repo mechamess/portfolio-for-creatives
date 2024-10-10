@@ -51,7 +51,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/cursor/starcursor.png"), auto !important;
+  cursor: url("../assets/cursor/starrycursor.png"), auto !important;
 }
 
 *,
@@ -78,7 +78,7 @@ html {
   --project-title-typeface: "M PLUS Rounded 1c", sans-serif;
   --background-color: #f5f2ed;
   --background-color-about: #f5f2ed;
-  --background-color-footer:#f5f2ed;    
+  --background-color-footer:#7EBCC6;    
   --alt-background-color: #f5f2ed;
   --background-color-holding-page: rgba(146, 233, 247, 0.6);
   --h1-color: #7EBCC6;
@@ -89,7 +89,7 @@ html {
   --h6-color: #1a1b25;
   --primary-text-color: #222;
   --holding-page-title-color: #f4ede9;
-  --accent-color: #f0d83b;
+  --accent-color: #FDC440;
   --overlay-color: #5200ff;
   --overlay-title-color: #f4ede9;
   --overlay-description-color: #f4ede9;
@@ -317,18 +317,12 @@ a:active {
                                  
 */
 
-.parallax {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-image: url(https://i.postimg.cc/jqQLkj9q/Heroexportjelll8.png),
-    url(https://i.postimg.cc/GppC28fh/Heroexportjellmid.png),
-    url(https://i.postimg.cc/Dw6hndBM/Heroexportcharafish.png),
-    url(https://i.postimg.cc/2SrYsXFW/Herobgjelly.png),
-    url(https://i.postimg.cc/26bNdpms/Herobg.png);
+.still-image {
+  background: url(../assets/Dinosaur-Poster/Dinosaur-chick-poster.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 85%, 90%, 100%, 100%, 100%;
+
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .hero {
@@ -498,8 +492,12 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 50vh;
+
+  background: url(../assets/footertop.svg);
   background: var(--background-color-footer);
+  background-repeat: no-repeat;
+  background-position: top;
   padding: 1rem;
 }
 
@@ -846,9 +844,25 @@ a.sub-navigation-link:hover {
 
 @media (min-width: 992px) {
 
+
   .parallax {
-    max-height: 950px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.postimg.cc/jqQLkj9q/Heroexportjelll8.png),
+      url(https://i.postimg.cc/GppC28fh/Heroexportjellmid.png),
+      url(https://i.postimg.cc/Dw6hndBM/Heroexportcharafish.png),
+      url(https://i.postimg.cc/2SrYsXFW/Herobgjelly.png),
+      url(https://i.postimg.cc/26bNdpms/Herobg.png);
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: 85%, 90%, 100%, 100%, cover;
+    background-position: bottom;
   }
+
+  /* .parallax {
+    max-height: 950px;
+  } */
 
   .holding-page-title {
     font-size: 2rem;
