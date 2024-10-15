@@ -989,8 +989,7 @@ a.sub-navigation-link:hover {
   }
 
   .project-image {
-    min-height: 70vh;
-    /* This should be deleted if you want to remove space between project images on project pages */
+   margin-bottom: 1.5rem;
   }
 
   .project-image-container {
