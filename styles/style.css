@@ -10,11 +10,8 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 
 /*
 
@@ -28,11 +25,11 @@ Imported stylesheets. Remove the ones you do not want to use.
 
 */
 
-@import url('make-something-fly.css');
-@import url('animated-gradient.css');
-@import url('text-stroke.css');
-@import url('stroke-shadow.css');
-@import url('scroll-to-top.css');
+@import url("make-something-fly.css");
+@import url("animated-gradient.css");
+@import url("text-stroke.css");
+@import url("stroke-shadow.css");
+@import url("scroll-to-top.css");
 /*
 
 X-Small devices (portrait phones, less than 576px) 
@@ -78,18 +75,18 @@ html {
   --project-title-typeface: "M PLUS Rounded 1c", sans-serif;
   --background-color: #f5f2ed;
   --background-color-about: #f5f2ed;
-  --background-color-footer:#7EBCC6;    
+  --background-color-footer: #7ebcc6;
   --alt-background-color: #f5f2ed;
   --background-color-holding-page: rgba(146, 233, 247, 0.6);
-  --h1-color: #7EBCC6;
-  --h2-color: #7EBCC6;
+  --h1-color: #7ebcc6;
+  --h2-color: #7ebcc6;
   --h3-color: #1a1b25;
   --h4-color: #1a1b25;
   --h5-color: #1a1b25;
   --h6-color: #1a1b25;
   --primary-text-color: #222;
   --holding-page-title-color: #f4ede9;
-  --accent-color: #FDC440;
+  --accent-color: #fdc440;
   --overlay-color: #5200ff;
   --overlay-title-color: #f4ede9;
   --overlay-description-color: #f4ede9;
@@ -108,7 +105,6 @@ html {
   --linear-gradient-color-3: #321575;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
-
 
 body {
   font-family: var(--body-typeface);
@@ -136,8 +132,6 @@ svg {
   /* This is optional. Also try cover or leave out entirely. */
 }
 
-
-
 /* Global & Mobile Typography 
 
 ████████ ██    ██ ██████   ██████   ██████  ██████   █████  ██████  ██   ██ ██    ██ 
@@ -151,9 +145,9 @@ svg {
 h1 {
   font-size: 2rem;
   font-family: "Madimi One", sans-serif;
-  font-weight: 500;;
+  font-weight: 500;
   margin-bottom: 1rem;
-  color: #7EBCC6;
+  color: #7ebcc6;
 }
 
 h2 {
@@ -199,7 +193,7 @@ em {
 }
 
 .fineprint {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .hero-headline {
@@ -221,7 +215,6 @@ em {
 .overlay-description {
   color: var(--overlay-description-color);
 }
-
 
 /* Hyperlink Styles */
 
@@ -275,8 +268,6 @@ a:active {
   background-position: center center;
 }
 
-
-
 .heart {
   color: var(--heart-color);
 }
@@ -304,8 +295,6 @@ a:active {
   line-height: 1.2;
   margin-bottom: 1rem;
 }
-
-
 
 /* Hero 
 
@@ -372,9 +361,6 @@ a:active {
   padding: 1rem;
 }
 
-
-
-
 /* Work Page Layout
 
 ██     ██  ██████  ██████  ██   ██     ██████   █████   ██████  ███████ 
@@ -387,12 +373,14 @@ a:active {
 
 .work-wrapper {
   flex: 1;
+  margin-bottom: 20rem;
+  border-bottom: 2px solid hotpink;
 }
 
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 /* Defining the work page grid */
@@ -427,16 +415,13 @@ a:active {
   flex-direction: column;
   padding: 1em;
   background-color: var(--overlay-color);
-  transition: opacity .3s, visibility .3s;
+  transition: opacity 0.3s, visibility 0.3s;
 }
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
-  opacity: .8;
+  opacity: 0.8;
 }
-
-
-
 
 /* 
 
@@ -487,18 +472,18 @@ a:active {
                                                    
 */
 
-
 .global-footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 50vh;
-
   background: url(../assets/footertop.svg);
-  background: var(--background-color-footer);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center -10rem;
   padding: 1rem;
+  margin-top: -10rem;
+  padding-top: 20rem;
+  border-top: 2px solid lightblue;
+  z-index: 10;
 }
 
 .footer-item-1 {
@@ -524,7 +509,6 @@ a:active {
 .awards-list {
   margin-bottom: 2rem;
 }
-
 
 /* Project Page 
 
@@ -606,10 +590,6 @@ a:active {
       var(--linear-gradient-color-3) 100%); */
 }
 
-
-
-
-
 /* 
 
 ██   ██  ██████  ██      ██████  ██ ███    ██  ██████  
@@ -629,8 +609,11 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* Delete the following if you do not want a grainy gradient background on the holding page */
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), var(--background-color-holding-page)),
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1),
+      var(--background-color-holding-page)
+    ),
     url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
@@ -652,7 +635,7 @@ a:active {
 }
 
 .holding-page-copyright {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--holding-page-footer-color);
   margin-bottom: 0;
 }
@@ -670,7 +653,6 @@ a:active {
   padding: 3rem;
 }
 
-
 /*
 ███████ ██████  ██████   ██████  ██████  
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
@@ -684,7 +666,8 @@ a:active {
   place-items: center;
 }
 
-.error-page-wrapper {}
+.error-page-wrapper {
+}
 
 .error-page-inner-container {
   text-align: center;
@@ -708,7 +691,8 @@ a:active {
   place-items: center;
 }
 
-.play-page-wrapper {}
+.play-page-wrapper {
+}
 
 .play-page-inner-container {
   text-align: center;
@@ -718,7 +702,6 @@ a:active {
   color: var(--accent-color);
 }
 
-
 /*
 ███████ ██   ██ ██████  ███████ ██████  ██ ███    ███ ███████ ███    ██ ████████ ███████ 
 ██       ██ ██  ██   ██ ██      ██   ██ ██ ████  ████ ██      ████   ██    ██    ██      
@@ -726,7 +709,6 @@ a:active {
 ██       ██ ██  ██      ██      ██   ██ ██ ██  ██  ██ ██      ██  ██ ██    ██         ██ 
 ███████ ██   ██ ██      ███████ ██   ██ ██ ██      ██ ███████ ██   ████    ██    ███████ 
 */
-
 
 .experiments-page {
   display: grid;
@@ -771,7 +753,8 @@ a:active {
   text-align: center;
 }
 
-.sub-navigation-item {}
+.sub-navigation-item {
+}
 
 a.sub-navigation-link {
   border: 1px solid var(--accent-color);
@@ -824,7 +807,6 @@ a.sub-navigation-link:hover {
   }
 }
 
-
 /*
 
 ███    ███ ███████ ██████  ██  █████       ██████  ██    ██ ███████ ██████  ██ ███████ ███████ 
@@ -835,16 +817,14 @@ a.sub-navigation-link:hover {
 
 */
 
-
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-
-
   .parallax {
     position: relative;
     width: 100%;
@@ -902,8 +882,8 @@ a.sub-navigation-link:hover {
     filter: grayscale(100);
   }
 
-  .work-page-grid-item>a.grayscale:active img,
-  .work-page-grid-item>a.grayscale:hover img {
+  .work-page-grid-item > a.grayscale:active img,
+  .work-page-grid-item > a.grayscale:hover img {
     filter: grayscale(0);
   }
 
@@ -970,7 +950,6 @@ a.sub-navigation-link:hover {
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: row;
-
   }
 
   /* Sidebar on Large Devices */
@@ -989,7 +968,7 @@ a.sub-navigation-link:hover {
   }
 
   .project-image {
-   margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .project-image-container {
@@ -1003,18 +982,16 @@ a.sub-navigation-link:hover {
   .arrow {
     padding-right: 1rem;
   }
-
-
 }
-
 
 /* Only add styles below to make very minor adjustments for extra or extra-extra large devices */
 
-
 /* X-Large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+}
