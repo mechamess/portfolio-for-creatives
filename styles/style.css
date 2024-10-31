@@ -12,6 +12,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap');
 
 /*
 
@@ -48,7 +49,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/cursor/starrycursor.png"), auto !important;
+  cursor: url("../assets/cursor/cursor.cur"), auto !important;
 }
 
 *,
@@ -261,11 +262,20 @@ a:active {
   color: var(--hyperlink-alternate-color);
 }
 
+.custom-navigation {
+  font-family: "Madimi One", sans-serif;
+  color: #7ebcc6;
+}
+
 .custom-navigation:hover {
   background: url(assets/temp/heading-background.svg);
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.custom-navigation:visited {
+  color: #7ebcc6;
 }
 
 .heart {
@@ -325,12 +335,43 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   align-items: flex-start;
 }
 
+.header-item {
+  display: inline-block;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+  padding-top: 0.7rem;
+}
+
+.hero-header {
+  position: relative;
+}
+
+.social-link-1 {
+  background: url(../assets/socmeds/email-svgrepo-com.svg);
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.social-link-2 {
+  background: url(../assets/socmeds/email-svgrepo-com.svg);
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 7rem;
+}
+
 .logo {
   width: 3rem;
+  min-width: 10rem;
 }
 
 .hero-headline-wrapper {
@@ -476,14 +517,45 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: url(../assets/footertop.svg);
+  height:10rem;
+  background: url(../assets/footer/footertop2.svg);
   background-repeat: no-repeat;
-  background-position: center -10rem;
+  background-position: bottom;
   padding: 1rem;
-  margin-top: -10rem;
-  padding-top: 20rem;
-  border-top: 2px solid lightblue;
-  z-index: 10;
+  padding-top: 0rem;
+  z-index: -10;
+}
+
+svg.svgwave {
+  width: 100%;
+  height: 7rem;
+  overflow: visible;
+}
+
+.my-text{
+  font-family:"Noto Sans Egyptian Hieroglyphs", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 5rem;
+}
+
+svg.svgwave path {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1rem;
+}
+
+svg.svgwave text {
+font-family: "Madimi One", sans-serif;
+  font-size: 3rem;
+font-weight: 400;
+  fill: black;
+}
+
+.wave-container {
+  background-color: #7ebcc6;
+  
 }
 
 .footer-item-1 {
