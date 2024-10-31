@@ -338,13 +338,15 @@ a:active {
   align-items: center;
   padding: 1rem;
   align-items: flex-start;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .header-item {
   display: inline-block;
   padding-left: 3rem;
   font-size: 1.5rem;
-  padding-top: 0.7rem;
+  padding-top: 0.8rem;
 }
 
 .hero-header {
