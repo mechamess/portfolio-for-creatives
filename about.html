@@ -13,13 +13,15 @@
 </head>
 
 <body class="about-page">
-    <header class="hero-header">
-        <ul class="branding-navigation">
-            <li><a href="work.html" class="custom-navigation">Work</a></li>
-            <li class="logo"><a href="index.html"><img src="assets/branding-images/logo.svg" /></a></li>
-            <li><a href="about.html" class="custom-navigation">About</a></li>
-          </ul>
-    </header>
+  <header class="hero-header">
+    <ul class="branding-navigation">
+      <li class="logo"><a href="index.html"><img src="assets/branding-images/wordlogo.svg" /></a></li>
+     <ul>
+      <li class="header-item"><a href="index.html" class="custom-navigation">Work</a></li>
+      <li class="header-item"><a href="about.html" class="custom-navigation">About</a></li>
+     </ul>
+    </ul>
+  </header>
   <ul class="about">
     <li class="about-item-1"><div class="about-image"><img src="assets/selfportrait/selfportraithigh.png" width="800" height="800" alt="A drawing of an artist sitting in a chair with an art tablet with jellyfish flying out of it."></div>
    </li>
@@ -38,16 +40,35 @@
     </ul>
   </li>    
   <li class="about-item-4">
-    <p><a href="#top">Smooth scroll to the top</a></p>
-    <p class="fineprint">&copy; 2020-2024. Hand crafted with <span class="heart">❤</span> + Flexbox  + CSS Grid by James Neufeld.</p>
   </li>
     </ul>
   </ul>
-  <footer class="hero-footer">
-    <ul class="hero-footer-navigation">
-      <li><a href="#" class="custom-navigation">Instagram</a></li>
-      <li><a href="mailto:james@magnetude.com" class="custom-navigation">Email</a></li>
-    </ul>
-  </footer>
+  <div class="global-footer"></div>
+    
+    <div class="wave-container">
+  <svg class="svgwave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1508.82 156.64">
+    <defs>
+      <style>
+        .cls-1 {
+          fill: none;
+          stroke: #000;
+          stroke-miterlimit: 10;
+          stroke-width: 2px;
+        }
+      </style>
+    </defs>
+    <path id="wavepath" class="cls-1" d="m.03,154.44C359.7,148.31,367.56,2,742.63,2s383.1,152.64,766.19,152.64"/>
+  
+  <text text-anchor="middle">
+        <textPath class="my-text" href="#wavepath" startOffset="50%">
+          <animate attributeName="startOffset" from="150%" to="-50%" begin="0s" dur="15s" repeatCount="indefinite"></animate>
+          𓆝 𓆟 𓆞 𓆝 𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞 𓆝 𓆟
+        </textPath>
+      </text>
+  </svg>
+  <div class="copyright">
+    © 2024–2025. By Emma Do.
+</div>
+  </div>
 </body>
 </html>

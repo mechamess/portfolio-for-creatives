@@ -203,8 +203,8 @@ em {
 
 .project-title {
   font-size: 3.725rem;
-  font-family: var(--project-title-typeface);
-  color: #1a1b25;
+  font-family: "Madimi One", sans-serif;
+  color: #7ebcc6;
   margin-bottom: 1rem;
 }
 
@@ -338,15 +338,16 @@ a:active {
   align-items: center;
   padding: 1rem;
   align-items: flex-start;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  flex: 1 0 80% !important;
 }
 
 .header-item {
   display: inline-block;
   padding-left: 3rem;
   font-size: 1.5rem;
-  padding-top: 0.8rem;
+  padding-top: 1rem;
 }
 
 .hero-header {
@@ -374,6 +375,7 @@ a:active {
 .logo {
   width: 3rem;
   min-width: 10rem;
+  padding-top: 0.175rem;
 }
 
 .hero-headline-wrapper {
@@ -402,6 +404,15 @@ a:active {
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Madimi One", sans-serif;
+  font-size: 14px;
+  color: #f4ede9;
+  line-height: 1.6;
+  margin: 30px 20px;
 }
 
 /* Work Page Layout
@@ -889,6 +900,14 @@ a.sub-navigation-link:hover {
 ██      ██ ███████ ██████  ██ ██   ██      ██████   ██████  ███████ ██   ██ ██ ███████ ███████ 
 
 */
+
+
+@media (min-width: 412px) {
+
+  .branding-navigation {
+font-size: 1rem;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 
