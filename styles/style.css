@@ -262,6 +262,8 @@ a:active {
 .custom-navigation {
   font-family: "Madimi One", sans-serif;
   color: #7ebcc6;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .custom-navigation:visited {
