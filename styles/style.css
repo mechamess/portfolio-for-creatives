@@ -12,7 +12,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap");
 
 /*
 
@@ -101,9 +101,6 @@ html {
   --heart-color: rgb(104, 223, 227);
   --holding-page-footer-color: #f4ede9;
   --text-selection-background-color: #5200ff;
-  --linear-gradient-color-1: #ff057c;
-  --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -267,13 +264,6 @@ a:active {
   color: #7ebcc6;
 }
 
-.custom-navigation:hover {
-  background: url(assets/temp/heading-background.svg);
-  background-size: 15%;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 .custom-navigation:visited {
   color: #7ebcc6;
 }
@@ -325,6 +315,7 @@ a:active {
 }
 
 .hero {
+  width: 100%;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -337,17 +328,18 @@ a:active {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  align-items: flex-start;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
-  flex: 1 0 80% !important;
+
+  /* flex: 1 0 80% !important; */
 }
 
-.header-item {
-  display: inline-block;
-  padding-left: 3rem;
-  font-size: 1.5rem;
-  padding-top: 1rem;
+.hero-menu-wrapper {
+  width: 6rem;
+}
+.hero-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .hero-header {
@@ -373,9 +365,7 @@ a:active {
 }
 
 .logo {
-  width: 3rem;
   min-width: 10rem;
-  padding-top: 0.175rem;
 }
 
 .hero-headline-wrapper {
@@ -428,6 +418,8 @@ a:active {
 .work-wrapper {
   flex: 1;
   margin-bottom: 20rem;
+  width: 100%;
+  background: lemonchiffon;
 }
 
 /* Padding around work grid and project page */
@@ -529,7 +521,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  height:10rem;
+  height: 10rem;
   background: url(../assets/footer/footertop2.svg);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -544,8 +536,8 @@ svg.svgwave {
   overflow: visible;
 }
 
-.my-text{
-  font-family:"Noto Sans Egyptian Hieroglyphs", serif;
+.my-text {
+  font-family: "Noto Sans Egyptian Hieroglyphs", serif;
   font-weight: 400;
   font-style: normal;
   color: white;
@@ -559,15 +551,14 @@ svg.svgwave path {
 }
 
 svg.svgwave text {
-font-family: "Madimi One", sans-serif;
+  font-family: "Madimi One", sans-serif;
   font-size: 3rem;
-font-weight: 400;
+  font-weight: 400;
   fill: black;
 }
 
 .wave-container {
   background-color: #7ebcc6;
-  
 }
 
 .footer-item-1 {
@@ -667,11 +658,6 @@ font-weight: 400;
 .project-details {
   width: 100%;
   padding: 1rem;
-  /* Delete the following if you do not want a gradient background on the project page */
-  /* background-image: linear-gradient(-225deg,
-      var(--linear-gradient-color-1) 0%,
-      var(--linear-gradient-color-2) 50%,
-      var(--linear-gradient-color-3) 100%); */
 }
 
 /* 
@@ -901,19 +887,6 @@ a.sub-navigation-link:hover {
 
 */
 
-
-@media (min-width: 412px) {
-
-  .branding-navigation {
-font-size: 1rem;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-
-@media (min-width: 768px) {
-}
-
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
@@ -952,6 +925,23 @@ font-size: 1rem;
     font-size: 1.625rem;
   }
 
+  .branding-navigation {
+    padding-top: 1rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1rem;
+    padding-left: 1.3rem;
+  }
+
+  .header-item {
+    display: inline-block;
+
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .hero-menu-wrapper {
+    width: 12rem;
+  }
   .logo {
     width: 5rem;
   }
