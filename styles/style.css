@@ -262,8 +262,6 @@ a:active {
 .custom-navigation {
   font-family: "Madimi One", sans-serif;
   color: #7ebcc6;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
 }
 
 .custom-navigation:visited {
@@ -895,14 +893,14 @@ a.sub-navigation-link:hover {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(https://i.postimg.cc/jqQLkj9q/Heroexportjelll8.png),
-      url(https://i.postimg.cc/GppC28fh/Heroexportjellmid.png),
-      url(https://i.postimg.cc/Dw6hndBM/Heroexportcharafish.png),
-      url(https://i.postimg.cc/2SrYsXFW/Herobgjelly.png),
-      url(https://i.postimg.cc/26bNdpms/Herobg.png);
+    background-image: url(https://cdn.discordapp.com/attachments/521456189024763904/1303561190278168646/Illustration168.png?ex=672c3376&is=672ae1f6&hm=3aacfd7ecea7e83339258c331cb9fa9513a95342a9dd3bbd515a923e09f6751d&),
+      url(https://cdn.discordapp.com/attachments/521456189024763904/1303543457146605639/Illustration168.png?ex=672c22f2&is=672ad172&hm=e51d2ba96a48f3b51bcfe83c7c6afae2b99f6e5bab073cf813a2ea60902ff7b9&),
+      url(https://cdn.discordapp.com/attachments/521456189024763904/1303538821463408812/Illustration168.png?ex=672c1ea1&is=672acd21&hm=d8a3f2000d9f241a3e367820baf43cd2b454d047d0b9f82f2e189522a049452f&),
+      url(https://cdn.discordapp.com/attachments/521456189024763904/1303538622892478554/Illustration168.png?ex=672c1e72&is=672accf2&hm=05cd3f2bb4c6c2610bf5f14ae4a025fadb08fcfee364c438ecf246ad688b98b3&),
+      url(https://cdn.discordapp.com/attachments/521456189024763904/1303538502838915163/Illustration168.png?ex=672c1e55&is=672accd5&hm=e3ed045aafb5c23880d0c7fe50d638f073d19464ec4437693cbfe286e22f5db2&);
     background-repeat: no-repeat;
     /* background-position: center center; */
-    background-size: 85%, 90%, 100%, 100%, cover;
+    background-size: 95%, 100%, 90%, 101%, 100%, cover;
     background-position: bottom;
   }
 
