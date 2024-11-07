@@ -4,12 +4,12 @@ function randomPick(arr) {
     return selected;}
   
   images = [ 
-    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/boots.svg",
-    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/western.svg",
-    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/wheel.svg",
-    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/omega.svg",
-    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/lambda.svg",
-    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/gamma.svg",
+    "https://i.postimg.cc/mDLsknJ8/emma-do-self-portrait-character-art-serious.png",
+    "https://i.postimg.cc/hGqgWvrF/emma-do-self-portrait-character-art-glad.png",
+    "https://i.postimg.cc/j5Mr7XrK/emma-do-self-portrait-character-art-pout.png",
+    "https://i.postimg.cc/W46V2VWd/emma-do-self-portrait-character-art-shock.png",
+    "https://i.postimg.cc/3N65LxRc/emma-do-self-portrait-character-art-sob.png",
+    "https://i.postimg.cc/tRmjR25N/emma-do-self-portrait-character-art-stare.png",
    ]
     
     function randomHover () {
@@ -21,4 +21,4 @@ function randomPick(arr) {
       function resetState() {
 
       var myImage = document.getElementById('hover');
-      myImage.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/beer.svg";}
+      myImage.src = "https://i.postimg.cc/90zHt7W9/emma-do-self-portrait-character-art-smile.png";}
