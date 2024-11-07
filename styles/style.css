@@ -905,11 +905,11 @@ a.sub-navigation-link:hover {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('/GitHub/assets/Hero-parallax/emma-do-jellyfish-parallax-illustration-concept-art.png'),
-      url('/GitHub/assets/Hero-parallax/emma-do-character-parallax-illustration-concept-art.png'),
-      url('/GitHub/assets/Hero-parallax/emma-do-soft-jellyfish-parallax-illustration-concept-art.png'),
-      url('/GitHub/assets/Hero-parallax/emma-do-clouds-parallax-illustration-concept-art.png'),
-      url('/GitHub/assets/Hero-parallax/emma-do-sky-parallax-illustration-concept-art.jpg');
+    background-image: url(../assets/Hero-parallax/emma-do-jellyfish-parallax-illustration-concept-art.png),
+      url(../assets/Hero-parallax/emma-do-character-parallax-illustration-concept-art.png),
+      url(../assets/Hero-parallax/emma-do-soft-jellyfish-parallax-illustration-concept-art.png),
+      url(../assets/Hero-parallax/emma-do-clouds-parallax-illustration-concept-art.png),
+      url(../assets/Hero-parallax/emma-do-sky-parallax-illustration-concept-art.jpg);
     background-repeat: no-repeat;
     /* background-position: center center; */
     background-size: 95%, 108%, 80%, 110%, 115%, cover;
