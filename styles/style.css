@@ -13,6 +13,7 @@ Add the Google Fonts you want, remove the ones you don't.
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*
 
@@ -71,7 +72,7 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "M PLUS Rounded 1c", sans-serif;
+  --body-typeface: "Poppins", sans-serif;
   --heading-typeface: "Madimi One", sans-serif;
   --project-title-typeface: "M PLUS Rounded 1c", sans-serif;
   --background-color: #f5f2ed;
@@ -81,11 +82,11 @@ html {
   --background-color-holding-page: rgba(146, 233, 247, 0.6);
   --h1-color: #7ebcc6;
   --h2-color: #7ebcc6;
-  --h3-color: #1a1b25;
-  --h4-color: #1a1b25;
-  --h5-color: #1a1b25;
-  --h6-color: #1a1b25;
-  --primary-text-color: #222;
+  --h3-color: #071772;
+  --h4-color: #071772;
+  --h5-color: #071772;
+  --h6-color: #071772;
+  --primary-text-color: #071772;
   --holding-page-title-color: #f4ede9;
   --accent-color: #fdc440;
   --overlay-color: #5200ff;
@@ -153,6 +154,7 @@ h2 {
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h2-color);
+  line-height: 1.2;
 }
 
 h3 {
@@ -181,7 +183,7 @@ h6 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.3;
   margin-bottom: 1rem;
 }
@@ -199,9 +201,17 @@ em {
 }
 
 .project-title {
-  font-size: 3.725rem;
+  font-size: 4.725rem;
   font-family: "Madimi One", sans-serif;
   color: #7ebcc6;
+  margin-bottom: 1rem;
+}
+.project-subtitle {
+  font-size: 1.725rem;
+  color: #071772;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
   margin-bottom: 1rem;
 }
 
@@ -221,9 +231,6 @@ a:link {
   text-decoration: none;
 }
 
-a:visited {
-  color: var(--visited-color);
-}
 
 a:hover {
   color: var(--hover-color);
@@ -244,15 +251,15 @@ a:active {
 
 .navigation-arrow:link {
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--accent-color);
+  -webkit-text-stroke-color: #071772;
   color: transparent;
 }
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: var(--accent-color);
+  color: #071772;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--accent-color);
+  -webkit-text-stroke-color: #071772;
 }
 
 .colored-link {
@@ -262,6 +269,14 @@ a:active {
 .custom-navigation {
   font-family: "Madimi One", sans-serif;
   color: #7ebcc6;
+}
+
+.custom-navigation-hero {
+  font-family: "Madimi One", sans-serif;
+  color: #121770;
+}
+.custom-navigation-hero:visited {
+  color: #121770;
 }
 
 .custom-navigation:visited {
@@ -501,10 +516,6 @@ a:active {
   grid-row: 3 / 4;
 }
 
-.about-item-4 {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
-}
 
 /* Global Footer
 
@@ -606,7 +617,7 @@ svg.svgwave text {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  color: var(--project-sidebar-text-color);
+  color: #071772;
   background: var(--project-sidebar-background-color);
 }
 
@@ -760,8 +771,6 @@ svg.svgwave text {
   place-items: center;
 }
 
-.play-page-wrapper {
-}
 
 .play-page-inner-container {
   text-align: center;
@@ -897,10 +906,10 @@ a.sub-navigation-link:hover {
       url(https://cdn.discordapp.com/attachments/521456189024763904/1303543457146605639/Illustration168.png?ex=672c22f2&is=672ad172&hm=e51d2ba96a48f3b51bcfe83c7c6afae2b99f6e5bab073cf813a2ea60902ff7b9&),
       url(https://cdn.discordapp.com/attachments/521456189024763904/1303538821463408812/Illustration168.png?ex=672c1ea1&is=672acd21&hm=d8a3f2000d9f241a3e367820baf43cd2b454d047d0b9f82f2e189522a049452f&),
       url(https://cdn.discordapp.com/attachments/521456189024763904/1303538622892478554/Illustration168.png?ex=672c1e72&is=672accf2&hm=05cd3f2bb4c6c2610bf5f14ae4a025fadb08fcfee364c438ecf246ad688b98b3&),
-      url(https://cdn.discordapp.com/attachments/521456189024763904/1303538502838915163/Illustration168.png?ex=672c1e55&is=672accd5&hm=e3ed045aafb5c23880d0c7fe50d638f073d19464ec4437693cbfe286e22f5db2&);
+      url(https://i.postimg.cc/G2ZSLxzq/Illustration188.png);
     background-repeat: no-repeat;
     /* background-position: center center; */
-    background-size: 95%, 100%, 90%, 101%, 100%, cover;
+    background-size: 95%, 108%, 80%, 110%, 115%, cover;
     background-position: bottom;
   }
 
@@ -933,7 +942,6 @@ a.sub-navigation-link:hover {
 
   .header-item {
     display: inline-block;
-
     font-size: 1.5rem;
     padding-top: 1rem;
   }
