@@ -293,10 +293,13 @@ a:active {
 
 .award-item {
   line-height: 1.3;
+  font-size: 1.2rem;
 }
 
 .social-item {
-  line-height: 1.3;
+  font-family: "Madimi One", sans-serif;
+  line-height: 1.5;
+  font-size: 1.3rem;
 }
 
 .list-item {
@@ -564,7 +567,7 @@ svg.svgwave text {
   font-family: "Madimi One", sans-serif;
   font-size: 3rem;
   font-weight: 400;
-  fill: black;
+  fill: #071772;
 }
 
 .wave-container {
