@@ -366,8 +366,8 @@ a:active {
 
 .social-link-1 {
   background: url(../assets/socmeds/email-svgrepo-com.svg);
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
   position: absolute;
   bottom: 1rem;
   left: 1rem;
@@ -375,11 +375,11 @@ a:active {
 
 .social-link-2 {
   background: url(../assets/socmeds/email-svgrepo-com.svg);
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
   position: absolute;
   bottom: 1rem;
-  left: 7rem;
+  left: 5rem;
 }
 
 .logo {
@@ -922,6 +922,23 @@ a.sub-navigation-link:hover {
 
   .holding-page-title {
     font-size: 2rem;
+  }
+  .social-link-1 {
+    background: url(../assets/socmeds/email-svgrepo-com.svg);
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+  }
+  
+  .social-link-2 {
+    background: url(../assets/socmeds/email-svgrepo-com.svg);
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 7rem;
   }
 
   h1 {
