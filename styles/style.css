@@ -923,6 +923,14 @@ a.sub-navigation-link:hover {
   .holding-page-title {
     font-size: 2rem;
   }
+  .hero-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 5rem;
+  }
+  
   .social-link-1 {
     background: url(../assets/socmeds/email-svgrepo-com.svg);
     height: 5rem;
