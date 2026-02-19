@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Emma Do | The Forest Has Eyes Too</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/branding-images/favicon.svg"
+    />
+    <meta
+      name="description"
+      content="An illustrative gif depicting a birch forest with eyes"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="lighbox/css/lightbox.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="project-2">
+    <header class="hero-header">
+      <ul class="branding-navigation">
+        <li class="logo">
+          <a href="index.html"
+            ><img
+              src="assets/branding-images/wordlogo.svg"
+              alt="Emma Do's logo"
+          /></a>
+        </li>
+        <li class="hero-menu-wrapper">
+          <ul class="hero-menu">
+            <li class="header-item">
+              <a href="index.html" class="custom-navigation">Work</a>
+            </li>
+            <li class="header-item">
+              <a href="about.html" class="custom-navigation">About</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <div class="project-wrapper">
+      <aside class="project-aside border">
+        <div class="project-info">
+          <h1 class="project-title">The Forest Has Eyes Too</h1>
+          <p class="project-subtitle">Animated Illustration</p>
+          <p class="project-description">
+            A scene depicting a normal birch forest.
+          </p>
+        </div>
+        <ul class="project-navigation">
+          <li class="arrow">
+            <a href="Vancaf.html" class="navigation-arrow"
+              ><i class="fas fa-arrow-left fa-2x"></i
+            ></a>
+          </li>
+          <li class="arrow">
+            <a href="lighthouse-keepers.html" class="navigation-arrow"
+              ><i class="fas fa-arrow-right fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </aside>
+      <main class="project-details">
+        <a
+          href="assets/gif/EmmaDoForest.gif"
+          data-lightbox="set-1"
+          data-title="forest"
+        >
+          <figure class="project-image border">
+            <img
+              src="assets/gif/EmmaDoForest.gif"
+              width="1920"
+              height="1080"
+              alt="A small looping animation featuring birch trees with eyes"
+            />
+          </figure>
+        </a>
+        </a>
+      </main>
+    </div>
+    <div class="global-footer"></div>
+
+    <div class="wave-container">
+      <svg
+        class="svgwave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1508.82 156.64"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: none;
+              stroke: #000;
+              stroke-miterlimit: 10;
+              stroke-width: 2px;
+            }
+          </style>
+        </defs>
+        <path
+          id="wavepath"
+          class="cls-1"
+          d="m.03,154.44C359.7,148.31,367.56,2,742.63,2s383.1,152.64,766.19,152.64"
+        />
+
+        <text text-anchor="middle">
+          <textPath class="my-text" href="#wavepath" startOffset="50%">
+            <animate
+              attributeName="startOffset"
+              from="150%"
+              to="-50%"
+              begin="0s"
+              dur="15s"
+              repeatCount="indefinite"
+            ></animate>
+            𓆝 𓆟 𓆞 𓆝 𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞 𓆝 𓆟
+          </textPath>
+        </text>
+      </svg>
+      <div class="copyright">© 2024–2025. By Emma Do. All rights reserved.</div>
+    </div>
+    <div id="myID" class="bottomMenu hide">
+      <a href="project-1.html">Previous Project</a>
+    </div>
+
+    <script type="text/javascript">
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+
+    <script src="lighbox/js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
